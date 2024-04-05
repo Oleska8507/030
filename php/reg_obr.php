@@ -6,10 +6,7 @@ $lastname = $_POST["lastname"];
 $email = $_POST["email"];
 $pass = $_POST["pass"];
 
-$host = "localhost";
-$db = "k96537xl_030";
-$user = "k96537xl_030";
-$password = "qwerty1A";
+
 
 //mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 $mysqli = mysqli_connect($host, $user, $password, $db);
