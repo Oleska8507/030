@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <title>Личный кабинет</title>
+    <style>
+      .nav-pills .nav-link.active {
+        background-color: #c5322d; 
+      }
+      .custom-padding {
+        padding-top: 6rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-3">
+          <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-link" id="profileTab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Профиль</a>
+            <a class="nav-link" id="messagesTab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Сообщения</a>
+            <a class="nav-link" id="settingsTab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Настройки</a>
+          </div>
+        </div>
+        <div class="col-9">
+          <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+              <div class="row custom-padding">
+                <div class="col-md-4">
+                  <img src="https://avatars.mds.yandex.net/i?id=503ae1df61590fe012909edede064648ede598f6-9541119-images-thumbs&n=13" alt="" class="img-fluid" width="90">
+                </div>
+                <div class="col-md-8">
+                  <h2>Фамилия и имя: <span id="userName"></span></h2>
+                  <p>О себе</p>
+                  <p>Email: <span id="userEmail"></span></p>
+                  <p>ID: <span id="userId"></span></p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad maxime, illum sint
+                    facilis aperiam eligendi id tenetur architecto, delectus illo laborum error, sed
+                    debitis recusandae. Laborum odit totam voluptates perferendis.</p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+              <div class="row custom-padding">
+                <div class="col-md-5">
+                  <div class="row mt-4">
+                    <div class="media">
+                      <img src="../../img/r10.jpg" alt="user" class="mr-2">
+                      <div class="media-body">
+                        <h4 class="mt-0">Анастасия Сидорова</h4>
+                        <p>Подскажите, кога будет итог?</p>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="row mt-4">
+                      <div class="media">
+                        <img src="../../img/r12.jpg" alt="user" class="mr-2">
+                        <div class="media-body">
+                          <h4 class="mt-0">Максим Левин</h4>
+                          <p>тогда, как будет информация - сообщи</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row mt-4">
+                      <div class="media">
+                        <img src="../../img/r2.jpg" alt="user" class="mr-2">
+                        <div class="media-body">
+                          <h4 class="mt-0">Антон Семашко</h4>
+                          <p>не, мне на дачу надо ехать</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row mt-4">
+                      <div class="media">
+                        <img src="../../img/r5.jpg" alt="user" class="mr-2">
+                        <div class="media-body">
+                          <h4 class="mt-0">Дарья Смирнова</h4>
+                          <p>договорились</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row mt-4">
+                      <div class="media">
+                        <img src="../../img/r8.jpg" alt="user" class="mr-2">
+                        <div class="media-body">
+                          <h4 class="mt-0">Надежда Викторова</h4>
+                          <p>по проекту Х все готово?</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row mt-4">
+                      <div class="media">
+                        <img src="../../img/r7.jpg" alt="user" class="mr-2">
+                        <div class="media-body">
+                          <h4 class="mt-0">Никита Попович</h4>
+                          <p> ха-ха</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="col-md-7">
+                  <div class="row">
+                    <div class="col-12 border">
+                      <div class="row mb-3">
+                        <div class="col-4">
+                          <img src="../../img/r2.jpg" alt="user" class="img-fluid">
+                        </div>
+                          <div class="col-8">
+                            <h4 class="mt-0">Антон Семашко</h4>
+                            <p>не, мне на дачу надо ехать</p>
+                          </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-4">
+                          <img src="https://avatars.mds.yandex.net/i?id=503ae1df61590fe012909edede064648ede598f6-9541119-images-thumbs&n=13" alt="user" class="img-fluid" width="70">
+                        </div>
+                          <div class="col-8">
+                            <h4 class="mt-0">Я</h4>
+                            <p>мы ж с парнями уже договорились</p>
+                          </div>
+                      </div>
+                    </div>
+                      <!-- <div class="row custom-padding"> -->
+                      <div class="col-12 custom-padding ">
+                        <div class="row">
+                          <div class="col-12 p-0">
+                            <textarea class="form-control" rows="3" placeholder="Текст сообщения"></textarea>
+                        </div>
+                      </div>
+                      <div class="row mt-3">
+                        <div class="col-6 ml-auto p-0">
+                          <button class="btn btn-danger btn-block">Отправить</button>
+                        </div>
+                      </div>
+                    </div>
+                      <!-- </div> -->
+                  </div>
+                </div>
+              </div>
+                <div class="row">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Фамилия и имя</th>
+                        <th scope="col">Email</th>
+                      </tr>
+                    </thead>
+                    <tbody id="userTable"></tbody>
+                  </table>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <h2 class="text-center mt-5">Настройки</h2>
+              <div class="row custom-padding">
+                <div class="col-xl-6 px-5">
+                  <button class="btn btn-success btn-block">Изменить</button>
+                </div>
+                <div class="col-xl-6 px-5">
+                  <button class="btn btn-secondary btn-block">Настроить</button>
+                </div>
+              </div>
+              <div class="row justify-content-center custom-padding">
+                <div class="col-4">
+                  <button class="btn btn-danger btn-block">Сохранить</button></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script>
+      let pathname = location.pathname.split("/")[2];
+      // let navLinks = document.querySelectorAll(".nav-Link"); почему выдает ошибку???
+      let navLinks = document.querySelectorAll(".nav-link");
+
+
+      async function getUser() {
+        let response = await fetch("/getUser");
+        return await response.json();
+      }
+      async function getUsers() {
+        let response = await fetch("/getUsers");
+        return await response.json();
+      }
+
+      window.addEventListener("popstate", () => {
+        let pathPopstate = location.pathname.split("/")[2];
+        if (pathPopstate == "profile") {
+          $("#profileTab").tab("show");
+        } else if (pathPopstate == "messages") {
+          $("#messagesTab").tab("show");
+        } else if (pathPopstate == "settings") {
+          $("#settingsTab").tab("show");
+        }
+      });
+
+      if (pathname == "profile") {
+        getUser().then((user) => {
+          userName.innerText = `${user.name} ${user.lastname}`;
+          userEmail.innerText = `${user.email}`;
+          userId.innerText = `${user.id}`;
+          console.log(user);
+        });
+
+        $("#v-pills-profile").tab("show");
+      } else if (pathname == "messages") {
+        getUsers().then((users) => {
+          for (let i = 0; i < users.length; i++) {
+            userTable.insertAdjacentHTML(
+              "beforeend",
+              `<tr>
+                <th scope="row">${users[i].id}</th>
+                <td>${users[i].lastname} ${users[i].name}</td>
+                <td>${users[i].email}</td>
+              </tr>`
+            );
+              // userTable.innerHTML += `
+            //   <tr>
+            //     <th scope="row">${users[i].id}</th>
+            //     <td>${users[i].lastname} ${users[i].name}</td>
+            //     <td>${users[i].email}</td>
+            //  </tr>`;
+          }
+          console.log(users);
+        });
+
+
+
+        $("#v-pills-messages").tab("show");
+      } else if (pathname == "settings") {
+        $("#v-pills-settings").tab("show");
+      } else {
+        location.href = location.protocol + "//" + location.host;
+      }
+      document.getElementById(pathname + "Tab").classList.add("active");
+
+      for (let i = 0; i < navLinks.length; i++) {
+        navLinks[i].addEventListener("click", () => {
+          let page = navLinks[i].getAttribute("aria-controls").split("v-pills-")[1];
+          console.log(page);
+          history.pushState("", "", page);
+        });
+      }
+    </script>
+  </body>
+</html>
