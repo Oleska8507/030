@@ -1,6 +1,6 @@
 # Bot
 ## JS
-### diplomnaya rabota - создание вебсайта tatiana.handmade73  http://k96537xl.beget.tech/proba.html
+### diplomnaya rabota - создание вебсайта tatiana.handmade73  http://k96537xl.beget.tech/pDipRab.html
 Веб-ресурс предназначен для рекламы и продажи изделий и оказания услуг населению.
 Используемые ресурсы:
 https://bootstrap-4.ru/   (подключается css, библиотека jquery.slim, javascript)
